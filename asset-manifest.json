@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fleetmanagement/static/css/main.3693a276.css",
+    "main.js": "/fleetmanagement/static/js/main.95ec446e.js",
+    "static/js/787.fe4351a9.chunk.js": "/fleetmanagement/static/js/787.fe4351a9.chunk.js",
+    "static/media/6.jpg": "/fleetmanagement/static/media/6.2682f295abdafab322db.jpg",
+    "static/media/3.jpg": "/fleetmanagement/static/media/3.3ff38e569aacc52184f1.jpg",
+    "static/media/750px.png": "/fleetmanagement/static/media/750px.700dcca2e3c805deae0e.png",
+    "static/media/7.jpg": "/fleetmanagement/static/media/7.2995c6630e7154a44a38.jpg",
+    "static/media/4.png": "/fleetmanagement/static/media/4.8aee396472c299de3f9c.png",
+    "static/media/2.jpg": "/fleetmanagement/static/media/2.580104e2c64d67ecd373.jpg",
+    "static/media/9.jpg": "/fleetmanagement/static/media/9.f7c8a00f77a0c882f700.jpg",
+    "static/media/8.jpg": "/fleetmanagement/static/media/8.29700f76793fce97ffab.jpg",
+    "index.html": "/fleetmanagement/index.html",
+    "main.3693a276.css.map": "/fleetmanagement/static/css/main.3693a276.css.map",
+    "main.95ec446e.js.map": "/fleetmanagement/static/js/main.95ec446e.js.map",
+    "787.fe4351a9.chunk.js.map": "/fleetmanagement/static/js/787.fe4351a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3693a276.css",
+    "static/js/main.95ec446e.js"
+  ]
+}
