@@ -1,0 +1,77 @@
+.cont{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+.idcard{
+    width: 500px;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+}
+.Dbox{
+    background: rgb(2, 28, 58);
+     width: 100%;
+     height: 50%;
+     display: flex;
+     justify-content: center;
+    border-bottom:2px solid  white;
+     align-items: center;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
+.detail{
+    background: rgb(2, 28, 58);
+    color: white;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.detail div{
+    padding-left: 10px;
+}
+.img{
+    width: 18%;
+    height:80px;
+    border-radius: 50%;
+}
+.title{
+    background: rgb(2, 28, 58);
+    color: white;
+    width: 85%;
+    border-top-right-radius: 20px;
+    border-left: 2px solid white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Brush Script MT', cursive;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.box{
+    width:100vw;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto ;
+    justify-content: center;
+    align-items: center;
+    background: #3d7c98;
+    overflow: scroll;
+    gap: 20px;
+    padding: 10px;
+}

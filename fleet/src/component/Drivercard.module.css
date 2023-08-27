@@ -1,0 +1,34 @@
+.card{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    background:rgb(139, 138, 138);
+    border-radius: 10px;
+}
+.name{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+.des{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.des input{
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: rgb(15, 83, 104);
+}
+.button{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

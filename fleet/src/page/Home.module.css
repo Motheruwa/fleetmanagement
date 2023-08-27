@@ -1,0 +1,138 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.allbutton{
+    width: 60%;
+    height: 100%;
+    background-image: url('img/750px.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+.allbutton a{
+    text-decoration: none;
+}
+.promotion {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    background: white;
+    overflow: hidden;
+  }
+.img2{
+    height: 200px;
+    width: 99%;
+    margin: 1px;
+    animation: scroll 10s linear infinite;
+}
+.img3{
+    height: 200px;
+    margin: 1px;
+    width: 99%;
+    animation: scroll 10s linear infinite;
+}
+.img4{
+    height: 200px;
+    margin: 1px;
+    width: 99%;
+    animation: scroll 10s linear infinite;
+}
+
+.img6{
+    height: 200px;
+    margin: 1px;
+    width: 99%;
+    animation: scroll 10s linear infinite;
+}
+.img7{
+    height: 200px;
+    margin: 1px;
+    width: 99%;
+    animation: scroll 10s linear infinite;
+}
+.img8{
+    height: 200px;
+    margin: 1px;
+    width: 99%;
+    animation: scroll 10s linear infinite;
+} 
+.img9{
+    height: 200px;
+    margin: 1px;
+    width: 99%;
+    animation: scroll 10s linear infinite;
+} 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.button{
+    width: 170px;
+    height: 210px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.button:hover{
+    width: 180px;
+    height: 220px;
+}
+.icon{
+    height: 90%;
+    border-top-left-radius: 20px;
+    width: 100%;
+    background-color: #3d7c98;
+    opacity: 0.7;
+}
+.title{
+    height: 10%;
+    background: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+}
+@keyframes scroll {
+    0% {
+      transform: translateY(0); /* start at the top */
+    }
+    100% {
+      transform: translateY(-100%); /* end at the bottom */
+    }
+  }
+  @media(max-width:850px)
+  {
+    .button{
+        width: 70px;
+        height: 90px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .icons{
+        display: none;
+    }
+    .icon{
+        height: 80%;
+    }
+    .title{
+        height: 20%;
+        overflow: hidden;
+    }
+  }
